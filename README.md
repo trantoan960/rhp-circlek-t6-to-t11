@@ -1,2 +1,2 @@
-# rhp-circlek-t6-to-t11
+# RHP Team Project for CircleK Web App Test
 This is project from rhp team
