@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: $link-color;
+}
+
+body {
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}

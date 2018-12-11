@@ -1,0 +1,25 @@
+ .btn {
+     height: 40px;
+     width: 100%;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 14px;
+     border: 1px solid transparent;
+     outline: none;
+     cursor: pointer;
+     color: #fff;
+     font-weight: 500;
+     &.bg-red {
+         background-color: $primary-color;
+     }
+     &.bg-white {
+         background-color: #e9e7e7;
+         font-weight: bold;
+         color: #4c4c4c;
+     }
+     &.btn-facebook {
+         background-color: #365899;
+     }
+     &.btn-google {
+         background-color: #de4c3f;
+     }
+ }
