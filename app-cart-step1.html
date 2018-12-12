@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+
+    <div class="header bg_red">
+        <div class="header--subpage width_full">
+            <i class="icon color_white fas fa-chevron-left"></i>
+            <div class="header--subpage-title t_center t_bold color_white">Giỏ hàng</div>
+            <i class="icon color_white fas fa-search"></i>
+        </div>
+    </div>
+    <div class="cartContent bg_grey p_10">
+        <div class="userCart p_10">
+            <div class="userCart--total color_black p_10 t_bold">Sản phẩm bạn đã chọn (2)</div>
+            <div class="userCart--list mt_10">
+                <div class="userCart--list-item">
+                    <div class="infoProduct">
+                        <div class="infoProduct--image">
+                            <img src="images/slider-bg.png">
+                        </div>
+                        <div class="infoProduct--detail">
+                            <h5 class="infoProduct--detail-name">Mì xào cay cấp độ 10</h5>
+                            <span class="infoProduct--detail-price t_bold color_red">1.000.000đ</span>
+                        </div>
+                        <div class="infoProduct--action t_right">
+                            <button>Xóa</button>
+                        </div>
+                    </div>
+                    <div class="quantilyProduct mt_10">
+                        <div class="quantilyProduct--status color_black"><i class="icon fas fa-circle"></i>Sản phẩm khả dụng</div>
+                        <div class="quantilyProduct--number">
+                            <i class="icon fas fa-minus-circle icon-disable"></i>
+                            <input type="number" value="1" class="t_center">
+                            <i class="icon fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="userCart--list-item">
+                    <div class="infoProduct">
+                        <div class="infoProduct--image">
+                            <img src="images/slider-bg.png">
+                        </div>
+                        <div class="infoProduct--detail">
+                            <h5 class="infoProduct--detail-name">Mì xào cay cấp độ 10</h5>
+                            <span class="infoProduct--detail-price t_bold color_red">1.000.000đ</span>
+                        </div>
+                        <div class="infoProduct--action t_right">
+                            <button>Xóa</button>
+                        </div>
+                    </div>
+                    <div class="quantilyProduct mt_10">
+                        <div class="quantilyProduct--status color_black"><i class="icon fas fa-circle"></i>Sản phẩm khả dụng</div>
+                        <div class="quantilyProduct--number">
+                            <i class="icon fas fa-minus-circle icon-disable"></i>
+                            <input type="number" value="1" class="t_center">
+                            <i class="icon fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="userCart--ship freeShip p_10">
+                <i class="icon fas fa-shipping-fast"></i>
+                <span>Miễn phí vận chuyển, giảm tối đa</span>
+                <span class="color_green">50.000 VNĐ</span>
+            </div>
+            <div class="userCart--money t_bold">
+                <span class="userCart--money-name color_black">Tổng tiền</span>
+                <div class="userCart--money-total color_red">120.000đ</div>
+            </div>
+            <div class="userCart--action t_right">
+                <button class="btn userCart--action-btn t_bold bg_transparent">Mua hàng</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

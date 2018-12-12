@@ -15,18 +15,103 @@ body {
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 
-.pl-40 {
+
+/* css text */
+
+.t_left {
+    text-align: left;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.t_right {
+    text-align: right;
+}
+
+.t_bold {
+    font-weight: bold !important;
+}
+
+
+/* css layout */
+
+.width_full {
+    display: block;
+    width: 100%;
+}
+
+.height_full {
+    height: 100%;
+}
+
+
+/* css color */
+
+.bg_red {
+    background-color: $primary-color;
+}
+
+.bg_transparent {
+    background-color: transparent;
+}
+
+.bg_grey {
+    background-color: #f4f4f4;
+}
+
+.color_white {
+    color: #fff;
+}
+
+.color_green {
+    color: #8bd73b;
+}
+
+.color_black {
+    color: #000;
+}
+
+.color_red {
+    color: $primary-color;
+}
+
+
+/* css margin padding */
+
+.pl_40 {
     padding-left: 40px;
 }
 
-.pr-40 {
+.pr_40 {
     padding-right: 40px;
 }
 
-.mb-20 {
+.pr_5 {
+    padding-right: 5px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mb_20 {
     margin-bottom: 20px;
 }
 
-.mb-15 {
+.mb_15 {
     margin-bottom: 15px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.p_10 {
+    padding: 10px;
+}
+
+.p_40 {
+    padding: 40px;
 }

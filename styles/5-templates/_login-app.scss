@@ -20,7 +20,6 @@ body {
     background-color: #000;
     position: relative;
     background-image: url(../images/background.png);
-    text-align: center;
     height: 100%;
     padding: 10px 10px 40px 10px;
     display: flex;
@@ -28,7 +27,6 @@ body {
     align-items: center;
     justify-content: space-between;
     .img-logo {
-        text-align: center;
         width: 100%;
         img {
             width: 200px;
@@ -39,7 +37,6 @@ body {
         font-size: 18px;
         font-weight: 500;
         line-height: 1.5;
-        color: #fff;
     }
     .button-group,
     .button-social {
@@ -56,7 +53,6 @@ body {
     }
     .back-icon {
         width: 100%;
-        text-align: left;
         img {
             width: 15px;
         }
@@ -69,10 +65,7 @@ body {
             border-bottom: 1px solid #fff;
             height: 32px;
             background-color: transparent;
-            display: block;
-            width: 100%;
             padding: 7.5px;
-            color: #fff;
             font-size: 14px;
             font-weight: 500;
             &:focus {

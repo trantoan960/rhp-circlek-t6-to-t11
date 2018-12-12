@@ -1,0 +1,41 @@
+.promotion {
+    color: #545252;
+    h5 {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .promotion--image {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .promotion--title {
+        font-size: 12px;
+        span {
+            margin: 5px 0;
+            display: block;
+        }
+    }
+    .promotion--detail {
+        border-top: 1px solid $border-color;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .promotion--move {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: calc(100% - 20px);
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 0 8px 0 rgba($color: $primary-color, $alpha: 0.5);
+        .icon {
+            font-size: 18px;
+        }
+    }
+}
