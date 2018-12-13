@@ -1,0 +1,96 @@
+.homepage {
+    min-height: calc(100vh - 50px);
+}
+
+.slider {
+    .slider--item {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.hotdeal {
+    background-color: #fff;
+    .hotdeal--head,
+    .hotdeal--content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hotdeal--head {
+        margin-bottom: 5px;
+        .hotdeal--head-name {
+            font-size: 14px;
+            color: #1d1d1d;
+        }
+        .hotdeal--head-more {
+            font-size: 12px;
+            color: #1a66d8;
+        }
+    }
+    .hotdeal--content {
+        margin: -5px;
+    }
+    .hotdeal--item {
+        flex: 0 0 calc(100% / 3);
+        max-width: calc(100% / 3 - 10px);
+        margin: 5px;
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        span {
+            font-size: 12px;
+            font-weight: 500;
+            color: #4d4c4c;
+            margin-top: 5px;
+        }
+    }
+}
+
+.productHome {
+    .productHome--tab {
+        margin: 10px 0;
+        font-size: 0;
+        button {
+            width: 120px;
+            display: inline-block;
+        }
+    }
+    .productHome--item {
+        background-color: #f9f9f9;
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .product--detail {
+        width: calc(100% - 100px);
+        margin: 0 10px;
+        .product--detail-price {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .product--detail-name {
+            font-size: 16px;
+            line-height: 1.19;
+            color: #363636;
+        }
+    }
+    .product--watched {
+        width: 40px;
+        .icon.fa-user {
+            color: #c9c9c9;
+            font-size: 20px;
+        }
+        .product--watched-number {
+            font-size: 14px;
+            color: #5d5d5d;
+        }
+    }
+}

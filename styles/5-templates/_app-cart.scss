@@ -64,6 +64,34 @@
 
 /* CSS For App Cart Step 2 */
 
+.productHome .product--image,
+.infoProduct .infoProduct--image {
+    width: 60px;
+}
+
+.detailProduct .grid--item,
+.productHome .product--image,
+.infoProduct .infoProduct--image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0.5px -0.5px 1px 0 rgba(0, 0, 0, 0.16);
+    &:before {
+        display: block;
+        padding-top: 100%;
+        content: '';
+    }
+    img {
+        position: absolute;
+        top: 50%;
+        height: 100%;
+        max-height: none;
+        width: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
 .infoProduct {
     display: flex;
     justify-content: flex-start;
@@ -288,6 +316,7 @@
         }
         .orderComplete--info-message {
             padding: 0 20px;
+            line-height: 1.4;
         }
     }
     .orderComplete--back {
